@@ -117,6 +117,11 @@
       padding: 2rem 20px; /* Use rems for consistent spacing */
       text-align: center;
     }
+    .about-image {
+      float: left; /* Or float: right; if you want it on the right */
+      margin-right: 20px; /* Adjust as needed */
+    }
+    
   </style>
 </head>
 <body>
@@ -137,6 +142,9 @@
 
   <section class="contact" id="contact">
     <div class="contact-form">
+      <div class="about-image">
+        <img src="images/MeshOS_image2.jpg" alt="Your Image Alt Text">
+      </div>
       <h4>Drop us a line</h4>
       <form>
         <div class="form-group">
@@ -152,7 +160,13 @@
       </form>
     </div>
   </section>
-
+  
+  <section class="subscribe">
+    <div class="subscribe-content">
+      <h3>Subscribe for updates:</h3>
+    </div>
+  </section>
+  
   <footer class="footer">
     <p>&copy; 2024 MeshOS: Your Hardware AI Teammate - All Rights Reserved.</p>
   </footer>
